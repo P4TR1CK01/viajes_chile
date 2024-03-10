@@ -1,12 +1,29 @@
-nav {
+nav{
     background-color: rgb(13,202,240); 
-    width: 100%;
-    height: auto;
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+nav a {
+    color: white !important;
 }
 
-.carousel{
-
-    width: 100%;
+.carousel {
+    width: 80%;
     height: auto;
+    margin: auto;
     
-{}
+}
+
+.quienes-somos {
+    background-color: black;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-family: 'Raleway', sans-serif;
+    
+}
