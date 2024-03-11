@@ -17,10 +17,9 @@ nav {
 
 /*Estilos carousel*/
 .carousel {
-    width: 100%;
+    width: auto;
     height: auto;
     margin: auto;
-    
 }
 /*Estilos sección quienes somos*/
 .quienes-somos {
@@ -90,6 +89,7 @@ nav {
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
 
+
 }
 
 /*Estilos sección CONTACTO*/
@@ -123,3 +123,21 @@ nav {
 .form-box {
     height: 10rem;
 }
+
+.btn-text {
+    color: white;
+    
+}
+
+/*Estilos footer*/
+
+.footer {
+    background-color: rgb(13,202,240);
+    color: white;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 600;
+    width: 100%;
+    padding: 4rem;   
+    font-size: large;
+}
+
