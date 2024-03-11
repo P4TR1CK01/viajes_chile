@@ -1,29 +1,52 @@
-nav{
+/*Estilos CSS de la página*/
+
+/*Estilos navbar*/
+nav {
     background-color: rgb(13,202,240); 
-    width: 80%;
+    width: 100%;
     margin: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Raleway', sans-serif;
-}
-nav a {
     color: white !important;
 }
 
+.nav a {
+    color: white !important;
+}
+
+
+/*Estilos carousel*/
 .carousel {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: auto;
     
 }
-
+/*Estilos sección quienes somos*/
 .quienes-somos {
     background-color: black;
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: auto;
     text-align: center;
     color: white;
     padding: 2rem;
-    font-family: 'Raleway', sans-serif;
-    
+    font-family: 'Raleway', sans-serif;   
 }
+
+/*Estilos sección columnas */
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+
+.fa1, .fa2, .fa3 {
+    background-color: rgb(13,202,240); 
+    text-align: center;
+}
+
