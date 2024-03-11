@@ -1,5 +1,22 @@
 /*Estilos CSS de la página*/
 
+
+body {
+    scroll-behavior: smooth;
+    }
+
+.container-fluyd {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    
+}
+
+#inicio, #quienes-somos, #destacados, #contacto {
+    min-height: 8rem;   
+}
+
 /*Estilos navbar*/
 nav {
     background-color: rgb(13,202,240); 
@@ -8,18 +25,24 @@ nav {
     font-weight: 500;
     font-family: 'Raleway', sans-serif;
     color: white !important;
+
 }
 
 .nav a {
     color: white !important;
 }
 
+nav a:hover {
+    color: black !important;
+
+}
 
 /*Estilos carousel*/
 .carousel {
     width: auto;
     height: auto;
     margin: auto;
+    
 }
 /*Estilos sección quienes somos*/
 .quienes-somos {
@@ -32,6 +55,7 @@ nav {
     padding: 2rem;
     font-family: 'Raleway', sans-serif;   
     font-weight: 300;
+    ;
 }
 
 /*Estilos sección columnas */
@@ -70,8 +94,6 @@ nav {
     background-color: black;
     width: 100%;
     height: 90%;
-
-    
 }
 .card1, .card2, .card3, .card4 {
     background-color: rgb(13,202,240);
@@ -81,15 +103,12 @@ nav {
     height: 90%;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
-
 }
     
 .cards h5 {
     text-align: center;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-
-
 }
 
 /*Estilos sección CONTACTO*/
@@ -112,6 +131,7 @@ nav {
     background-color: black;
     padding: 2rem;
     margin: auto;
+    
 }
 
 .form-text {
@@ -126,7 +146,6 @@ nav {
 
 .btn-text {
     color: white;
-    
 }
 
 /*Estilos footer*/
@@ -137,7 +156,14 @@ nav {
     font-family: 'Raleway', sans-serif;  
     font-weight: 600;
     width: 100%;
-    padding: 4rem;   
     font-size: large;
+    padding: 1rem
 }
 
+/*TOOLTIP*/
+
+tooltip-box {
+    background: black;
+    z-index: 1000;
+
+}

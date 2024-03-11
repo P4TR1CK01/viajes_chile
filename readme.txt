@@ -1,0 +1,18 @@
+Se usaron los siguientes componentes:
+
+1.  HEAD
+2.  NAVBAR
+3.  CAROUSEL
+4.  SECTION
+5.  CARD´S
+6.  GRID
+7.  FORMULARIO
+8.  FOOTER
+
+SE USARON LOS SIGUIENTES COMPONENTES DE BS CON JS:}
+
+-   NAVBAR
+-   CAROUSEL
+-   TOOLTIP
+
+

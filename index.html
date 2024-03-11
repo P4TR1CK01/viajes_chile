@@ -20,8 +20,9 @@
 </head>
 
 <body>
+  
 <!--NAVBAR-->
-  <nav>
+  <div class="container-fluyd" id="inicio">
     <nav class="navbar navbar-expand-lg">
       <div class="container nav">
         <a class="navbar-brand" href="#navbarbrand">Viajes Chile</a>
@@ -32,29 +33,27 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quienes Somos</a>
+              <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contactos</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-  </nav>
-
+  
 
 <!--CAROUSEL-->
-  <header>
-    <div class="carousel">
+    <header>
     <section id="carousel" class="carou">
-    <div id="carouselExampleIndicators" class="carousel slide">
+      <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators ">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -84,14 +83,12 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+      </div>
     </section>
-    </div>
-  </header>
-
-
+    </header>
+  
 <!--QUIENES SOMOS-->
-  <section id="quienes-somos" class="quienes-somos">
+    <section id="quienes-somos" class="quienes-somos">
     <div class="container">
       <div class="row ">
         <div class="col-md-12 ">
@@ -100,10 +97,10 @@
         </div>
       </div>
     </div>
-  </section>
+    </section>
 
   <!--COLUMNAS-->
-  <section id="column" class="col">
+    <section id="column" class="col">
     <div class="columnas">
       <div class="row col-4">
         <div class="col">
@@ -112,6 +109,7 @@
           </div>
           <article>
             Contamos con vehículos propios, cómodos y con comunicación satelital en cada excursión.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci labore voluptatibus rem ullam ex natus quam consequuntur animi praesentium, deserunt delectus cum distinctio quibusdam incidunt magni totam, dolores aperiam. Quae?
           </article>
         </div>
       </div>
@@ -119,6 +117,7 @@
         <div class="col">
           <article>
             si no consigue reserva en todos los campamentos que desea visitar, debe adaptar su itinerario de acuerdo a las reservas que obtenga
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita impedit dignissimos accusantium? Autem cupiditate odio eveniet culpa debitis? Reiciendis totam perspiciatis suscipit. Ea quod harum dolor in nulla ab corrupti?
           </article>
           <div class="fa2">
             <i class="fa-solid fa-mountain"></i>
@@ -131,26 +130,26 @@
             <i class="fa-solid fa-route"></i>
           </div>
           <article>
-            Horarios, comidas y destinos pensados en cada necesidad. Todos los servicios son 100% realizados por Viajes Chile          
+            Horarios, comidas y destinos pensados en cada necesidad. Todos los servicios son 100% realizados por Viajes Chile.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vero atque officia quia beatae adipisci culpa, incidunt, hic repellat unde enim animi vel nesciunt earum provident, pariatur architecto nulla quo.           
           </article>
         </div>
       </div>
     </div>
     
-  </section>
+    </section>
 
   <!--DESTACADOS-->
-  <section id="destacados" class="destacados">
-    <div class="container">
+    <section id="destacados" class="destacados">
+      <div class="container">
       <div class="row ">
         <div class="col-md-12 ">
           <h2>DESTACADOS</h2>
         </div>
       </div>
-      <div class="row">
         
-    </div>
-  </section>
+      </div>
+    </section>
 
   <!--CARDS-->
     <section id="cards" class="cards">
@@ -195,7 +194,7 @@
     </section>
     
   <!--CONTACTO-->
-  <section id="contacto" class="contacto">
+    <section id="contacto" class="contacto">
     <div class="container">
       <div class="row ">
         <div class="col-md-12 ">
@@ -204,36 +203,32 @@
         </div>
       </div>    
     </div>
-  </section>
+    </section>
 
   <!--FORMULARIO-->
-  <section id="form" class="form form-text">
+    <section id="form" class="form form-text">
       <form>
         <div class="mb-3">
-          <label for="nombre" class="form-text">Nombre</label>
+          <form for="nombre" class="form-text">Nombre</form>
           <input type="nombre" class="form-control" id="nombreInput" aria-describedby="emailHelp">
-      
         </div>
         <div class="mb-3">
-          <label for="asunto" class="form-text">Asunto</label>
+          <form for="asunto" class="form-text">Asunto</form>
           <input type="asunto" class="form-control" id="asuntoInput" aria-describedby="emailHelp">
         </div>
-
-      </div>
-      <div class="mb-3">
-        <label for="mensaje" class="form-text">mensaje</label>
-        <input type="mensaje" class="form-control form-box" id="mensajeInput" aria-describedby="emailHelp">
-      </div>
-      <button type="submit" class="btn btn-text btn-info">Enviar</button>
-
-        
-    </form>
-    </div>
-  </section>
+        <div class="mb-3">
+          <form for="mensaje" class="form-text">Mensaje</form>
+          <input type="mensaje" class="form-control form-box" id="mensajeInput" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-text btn-info">Enviar
+        <span class="tooltip-box">enviado</span>
+      </button>
+      </form>
+    </section>
 
   <!--FOOTER-->
-  <footer id="footer" class="footer">
-      <div class="row">
+    <footer id="footer" class="footer">
+    <div class="row">
         <div class="col-md-3">
           <p>Viajes Chile</p>
         </div>
@@ -252,8 +247,10 @@
         <div class="col-md-1">
           <i class="fa-brands fa-facebook"></i>
         </div>
-      </div>
-  </footer>
+    </div>
+    </footer>
+
+  </div>
 
   <!--bootstrap-cnd-js-->
 
