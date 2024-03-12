@@ -1,10 +1,10 @@
-//ALERTA MENSAJE FORMULARIO//
+//tooltip//
 
-$('.btn-info').click(function(){
-  alert('Mensaje enviado')
-})
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
-//FUNCION MOUSEENTER-MOUSELEAVE COLIMNAS//
+
+//FUNCION MOUSEENTER-LEAVE/MOUSEFADE-IN-OUT COLUMNAS//
 
 $('.row1').mouseenter(function(){
   $('.row1').fadeOut();
@@ -36,19 +36,36 @@ $('.card1').click(function(){
   $('.card1').hide();
 });
 
+$('.card1').mouseleave(function(){
+  $('.card1').fadeIn();
+});
+
 $('.card2').click(function(){
   $('.card2').hide();
+});
+
+$('.card2').mouseleave(function(){
+  $('.card2').fadeIn();
 });
 
 $('.card3').click(function(){
   $('.card3').hide();
 });
 
+$('.card3').mouseleave(function(){
+  $('.card3').fadeIn();
+});
+
 $('.card4').click(function(){
   $('.card4').hide();
 });
 
-$('.card').dblclick(function(event){
-  event.stopPropagation();
-  $(this).show();
+$('.card4').mouseleave(function(){
+  $('.card4').fadeIn();
 });
+
+//ALERTA MENSAJE FORMULARIO//
+
+$('.btn-info').click(function(){
+  alert('Mensaje enviado')
+})
