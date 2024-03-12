@@ -8,9 +8,9 @@ body {
 
 .container-fluyd {
     position: relative;
-    width: 90%;
+    max-width: 200rem;
     margin: auto;
-    height: auto;
+    
     
 }
 
@@ -22,7 +22,7 @@ body {
 
 /*Estilos navbar*/
 nav, .navbar {
-    background-color: rgb(13,202,240) !important; 
+    background-color:transparent !important; 
 }
 
 .navbar-brand, .nav-link {
@@ -40,7 +40,7 @@ nav a:hover {
 
 /*Estilos carousel*/
 .carousel {
-    width: auto;
+    width: 100%;
     height: auto;
     margin: auto;
     
@@ -48,14 +48,9 @@ nav a:hover {
 /*Estilos sección quienes somos*/
 .quienes-somos {
     background-color: black;
-    width: 100%;
-    height: auto;
-    margin: auto;
     text-align: center;
     color: white;
-    padding: 2rem;
     font-family: 'Raleway', sans-serif;   
-    font-weight: 300;
     ;
 }
 
@@ -101,7 +96,6 @@ nav a:hover {
     background-color: rgb(13,202,240);
     color: white;
     margin-bottom: 4rem;
-    width: 100%;
     height: 90%;
     font-weight: 300;
     font-family: 'Raleway', sans-serif;
@@ -133,7 +127,7 @@ nav a:hover {
     background-color: black;
     padding: 2rem;
     margin: auto;
-    
+    ;
 }
 
 .form-text {
