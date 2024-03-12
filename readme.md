@@ -14,3 +14,9 @@ Desarrollado por Patrick Ojeda
 - SmoothScroll
 - ToolTip
 
+#### Modulos de JQuiery
+
+
+#### Modulos de JavaScript
+
+
