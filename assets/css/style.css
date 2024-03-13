@@ -1,26 +1,21 @@
-/*Estilos CSS de la página*/
-
-
+/*ESTILOS CSS DE LA PAGINA*/
 
 body {
     scroll-behavior: smooth;
+    max-width: auto;
+    min-width: 320px;
     }
 
 .container-fluyd {
     position: relative;
-    max-width: 200rem;
-    margin: auto;
-    
-    
+    margin: auto;    
 }
 
 #inicio, #quienes-somos, #destacados, #contacto {
     min-height: 8rem;  
 }
 
-
-
-/*Estilos navbar*/
+/*ESTILOS SECCIÓN NAVBAR*/
 nav, .navbar {
     background-color:transparent !important; 
 }
@@ -35,30 +30,36 @@ nav a:hover {
     text-align: center;
 }
 
-/*Estilos sección quienes somos*/
+/*ESTILOS SECCIÓN QUIENES-SOMOS*/
+
 .quienes-somos {
     background-color: black;
-    text-align: center;
+    text-align: center !important;
     color: white;
     font-family: 'Raleway', sans-serif;   
-    ;
+    height: auto;
+    width: auto;
+    padding: 2rem;
 }
 
-/*Estilos sección columnas */
-.columnas {
-    display: flex;
+/*ESTILOS SECCIÓN COLUMNAS */
+
+.article {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 2rem;
 }
 
-.fa1, .fa2, .fa3 {
+.art-1, .art-2, .art-3 {
     background-color: rgb(13,202,240); 
     text-align: center;
 }
 
-/*Estilos sección DESTACADOS*/
+/*ESTILOS SECCIÓN DESTACADOS*/
+
 .destacados {
     background-color: black;
     width: 100%;
@@ -70,51 +71,47 @@ nav a:hover {
     font-family: 'Raleway', sans-serif;  
 }
 
-/*Estilos sección CARDS*/
+/*ESTILOS SECCIÓN CARDS*/
+
 .cards {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Raleway', sans-serif; 
     background-color: black;
-    width: 100%;
-    height: 90%;
 }
 
-.card1, .card2, .card3, .card4 {
+.card-img-top {
+    min-width: 2rem !important;
+    min-height: 2rem !important;
+}
+
+.card-text, .cards h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding: 1rem;
     background-color: rgb(13,202,240);
     color: white;
-    margin-bottom: 4rem;
-    height: 90%;
-    font-weight: 300;
-    font-family: 'Raleway', sans-serif;
-}
-
-.cards h5 {
     text-align: center;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
+    padding: 5%;
 }
 
-/*Estilos sección CONTACTO*/
+/*ESTILOS SECCIÓN CONTACTO*/
 
 .contacto {
-    background-color: black;
+    background-color: black !important;
     text-align: center;
     color: white;
     padding: 2rem;
     font-family: 'Raleway', sans-serif;  
     font-weight: 300;
+    width: 100%;
 }
 
-/*Estilo sección FORMULARIO*/
+/*ESTILOS SECCIÓN FORMULARIO*/
 
 .form {
-    background-color: black;
-    padding: 2rem;
-    margin: auto;
+    background-color: black !important;
+    padding: 8rem;
 }
 
-.form-text {
+.form-text, .mb-3 {
     color: white;
     font-family: 'Raleway', sans-serif;  
     font-weight: 300;
@@ -124,7 +121,7 @@ nav a:hover {
     color: white;
 }
 
-/*Estilos footer*/
+/*ESTILOS SECCIÓN FOOTER*/
 
 .footer {
     background-color: rgb(13,202,240);
@@ -134,12 +131,4 @@ nav a:hover {
     width: 100%;
     font-size: large;
     padding: 1rem
-}
-
-/*TOOLTIP*/
-
-tooltip-box {
-    background: black;
-
-
 }

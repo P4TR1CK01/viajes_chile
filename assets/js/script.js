@@ -1,34 +1,8 @@
-//tooltip//
+//TOOLTIP//
 
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
-
-//FUNCION MOUSEENTER-LEAVE/MOUSEFADE-IN-OUT COLUMNAS//
-
-$('.row1').mouseenter(function(){
-  $('.row1').fadeOut();
-});
-
-$('.row1').mouseleave(function(){
-  $('.row1').fadeIn();
-});
-
-$('.row2').mouseenter(function(){
-  $('.row2').fadeOut();
-});
-
-$('.row2').mouseleave(function(){
-  $('.row2').fadeIn();
-});
-
-$('.row3').mouseenter(function(){
-  $('.row3').fadeOut();
-});
-
-$('.row3').mouseleave(function(){
-  $('.row3').fadeIn();
-});
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 //FUNCION HIDE CARS//
 
